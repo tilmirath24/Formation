@@ -9,7 +9,16 @@
 
 
 <body>
-
+    <h2>Remarques:</h2>
+      <ul>
+        <li><h3>Compléter tout le Formulaire.</h3></li>
+        <li><h3>Pour les cases 3, 4, 5 et 6:
+          choisissez dans la table au-dessous, puis insérer les informations sur le Formulaire.</h3>
+        <li><h3>Cliquer le bouton ENVOYER.</h3> </li>
+        <li><h3>MERCI.</h3></li>
+        </li>
+      </ul>
+    
     <div class="container">
         
         <form action="https://formspree.io/f/mjvnvknb" method="POST">
@@ -29,7 +38,7 @@
   border-collapse: collapse;
 }
 th, td {
-  padding: 20px;
+  padding: 15px;
 }
  .center {
   display: block;
@@ -41,50 +50,50 @@ th, td {
 
     </style>
    	<tr>
-   		<td><label >Prenom</label></td>
+   		<td><label >1-Prenom</label></td>
    		<td><input type="text" name="prenom" size="100" ></td>
    	</tr>
 	<tr>
-   		<td><label>Nom</label></td>
+   		<td><label>2---Nom</label></td>
    		<td><input type="text" name="nom"  size="100"></td>
    	</tr>
        <tr>
-        <td><label>Niveau Scolaire</label></td>
+        <td><label>3-Niveau Scolaire</label></td>
         <td><input type="text" name="niveau_scolaire"  size="100"></td>
 		
     </tr>
 	
 	  </div>
     <tr>
-        <td><label>Cours de Formation</label></td>
-        <td><input type="text" name="cours"  size="100"></td>
+        <td><label>4---Formation </label></td>
+        <td><input type="text" name="formation"  size="100"></td>
        
     </tr>
    
     <tr>
-        <td><label>Connaissances</label></td>
-        <td><input type="text" name="connaissances"  size="100"></td>
+        <td><label>5--Niveau</label></td>
+        <td><input type="text" name="niveau"  size="100"></td>
     </tr>
    	   	<tr>
-   		<td><label>Phone ou Whatsapp</label></td>
+   		<td><label>6--Tel ou Whatsapp</label></td>
         <td><input type="text" name="numéro"  size="100"></td>
    		</td>
    	</tr>
    	   	<tr>
-   		<td><label>Email</label></td>
+   		<td><label>7---Email</label></td>
    		<td><input type="email" name="email" size="100"></td>
    	</tr>
    	
       
    	   	<tr>
-   		<td colspan="10" align="center"><input type="submit" name="submit" value="send" style="fobt-size:60px"></td>
+   		<td colspan="10" align="center"><input type="submit" name="submit" value="ENVOYER" style="fobt-size:60px"></td>
    	</tr>
 
    </table>
 
   </form>
   
-  <img src="شكرا.gif" class="center">
+  <img src="images/شكرا.gif" class="center">
 
   <p>
     <label for="niveau_scolaire">Niveau Scolaire:</label>
@@ -107,8 +116,8 @@ th, td {
 
   <p>
 
-    <label for="cours">Cours de Formation:</label>
-    <select id="cours">
+    <label for="formation">Formation:</label>
+    <select id="formation">
       <option value="">Choisissez votre formation</option>
       <option value="MS Word">Microsoft Office Word</option>
       <option value="MS Excel">Microsoft Office Excel</option>
@@ -120,8 +129,8 @@ th, td {
   <p/>
 
   <p>
-    <label for="connaissances">Connaissances:</label>
-    <select id="cours">
+    <label for="connaissances">Niveau:</label>
+    <select id="niveau">
       <option value="">Séléctionner votre niveau</option>
       <option value="débutant(e)">Débutant(e)</option>
       <option value="notions_préléminaires">Notions préléminaires</option>
