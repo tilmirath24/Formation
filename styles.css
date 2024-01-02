@@ -10,7 +10,7 @@
 
   
   .button {
-    background-color: tomato;
+    background-color: pink;
     border: none;
     color: green;
     padding: 20px 34px;
@@ -89,7 +89,7 @@
   
   /* Add a card effect for articles */
   .card {
-    background-color: #A52A2A;
+    background-color: pink;
     padding: 20px;
     margin-top: 20px;
   }
