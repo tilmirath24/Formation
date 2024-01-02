@@ -51,7 +51,7 @@
   
   /* Style the topnav links */
   .topnav a {
-    float: left;
+    float: center;
     display: block;
     color:yellow;
     text-align: center;
