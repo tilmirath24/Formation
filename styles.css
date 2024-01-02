@@ -7,6 +7,8 @@
     padding: 10px;
     background:powderblue;
   }
+
+  
   .button {
     background-color: tomato;
     border: none;
@@ -31,9 +33,10 @@
   }
   h2 {
     text-align: center;
+    color: green;
   }
   h3 {
-    text-color:white;
+    text-color:green;
   }
   .header h1 {
     font-size: 50px;
@@ -86,7 +89,7 @@
   
   /* Add a card effect for articles */
   .card {
-    background-color: pink;
+    background-color: #A52A2A;
     padding: 20px;
     margin-top: 20px;
   }
